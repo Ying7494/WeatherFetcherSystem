@@ -1,6 +1,6 @@
 # WeatherFetcherSystem
 
-1.0 Beta
+1.0
   - First Version
 
 
@@ -45,6 +45,55 @@ WeatherFetcherSystem is currently extended with the following plugins.
 | sqlparse           | 0.3.0 |
 | urllib3      | 1.25.3 |
 | wheel   | 0.33.4 |
+
+
+### RESTful API
+
+
+##### Login API 
+
+###### Request
+`POST: https://app.chiaying.wang/api/login/?username=demo&password=chiayingwang`
+| Key | Type | Required | Info |
+| ------ | ------ | ------ | ------ |
+| username | string | Y | Username |
+| password | string | Y | Password |
+
+###### Response
+| Key | Type  | Info |
+| ------ | ------ | ------ | 
+| status | int | Status Code |
+| data | string | Infomation |
+
+
+##### Weather API 
+
+###### Request
+`GET: https://app.chiaying.wang/api/weather/?username=demo&password=chiayingwang&city=06`
+| Key | Type | Required | Info |
+| ------ | ------ | ------ |------ |
+| username | string | Y | Username |
+| password | string | Y | Password |
+| city | string | Y | City Number (Taipei:01/New Taipei:06/Taoyuan:08) |
+
+###### Response
+| Key | Type  | Info |
+| ------ | ------ | ------ | 
+| status | int | Status Code |
+| data | JSON Array | infomation |
+
+Data JSON Array Struct
+| Key | Type  | Info |
+| ------ | ------ | ------ | 
+| model | int | Model |
+| pk | int | Primary Key |
+| fields.city | string | City Number |
+| fields.temp | float | Temperature |
+| fields.humd | float | Humidity |
+| fields.pres | float | Pressure |
+| fields.wdir | float | Wind Direction |
+| fields.wdsd | float | Wind Speed |
+| fields.recordTime | string | Record Time |
 
 
 **2019 © Ian Chiaying Wang**
