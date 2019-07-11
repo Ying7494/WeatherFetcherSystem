@@ -54,12 +54,14 @@ WeatherFetcherSystem is currently extended with the following plugins.
 
 ###### Request
 `POST: https://app.chiaying.wang/api/login/?username=demo&password=chiayingwang`
+
 | Key | Type | Required | Info |
 | ------ | ------ | ------ | ------ |
 | username | string | Y | Username |
 | password | string | Y | Password |
 
 ###### Response
+
 | Key | Type  | Info |
 | ------ | ------ | ------ | 
 | status | int | Status Code |
@@ -70,6 +72,7 @@ WeatherFetcherSystem is currently extended with the following plugins.
 
 ###### Request
 `GET: https://app.chiaying.wang/api/weather/?username=demo&password=chiayingwang&city=06`
+
 | Key | Type | Required | Info |
 | ------ | ------ | ------ |------ |
 | username | string | Y | Username |
@@ -77,12 +80,14 @@ WeatherFetcherSystem is currently extended with the following plugins.
 | city | string | Y | City Number (Taipei:01/New Taipei:06/Taoyuan:08) |
 
 ###### Response
+
 | Key | Type  | Info |
 | ------ | ------ | ------ | 
 | status | int | Status Code |
 | data | JSON Array | infomation |
 
 Data JSON Array Struct
+
 | Key | Type  | Info |
 | ------ | ------ | ------ | 
 | model | int | Model |
