@@ -4,7 +4,7 @@ v1.0
   - First Version
 
 Demo:
-  - URL: https://app.chiaying.wang/dashboard/
+  - URL: https://app.chiaying.wang/dashboard/ (HTTPS Required)
   - Username: demo
   - Password: chiayingwang
 
