@@ -20,12 +20,14 @@ WeatherFetcherSystem uses those projects to work properly:
 
 * [Python] - Backend
 * [jQuery] - Frontend
+* [SQLite] - Database
 
 
 ### System Requirement
 
 * [Python] - v3.6+
 * [OS] - Linux (CentOS 7 is recommend)
+* [SQLite] - v3
 * [pip] - v19
 * [Django] - 1.11
 * [Apache] - 2.4
