@@ -59,7 +59,7 @@ WeatherFetcherSystem is currently extended with the following plugins.
 ##### Login API 
 
 ###### Request
-`POST: https://app.chiaying.wang/api/login/?username=demo&password=chiayingwang`
+`POST: https://app.chiaying.wang/api/login/`
 
 | Key | Type | Required | Info |
 | ------ | ------ | ------ | ------ |
@@ -77,13 +77,13 @@ WeatherFetcherSystem is currently extended with the following plugins.
 ##### Weather API 
 
 ###### Request
-`GET: https://app.chiaying.wang/api/weather/?username=demo&password=chiayingwang&city=06`
+`GET: https://app.chiaying.wang/api/weather/`
 
 | Key | Type | Required | Info |
 | ------ | ------ | ------ |------ |
 | username | string | Y | Username |
 | password | string | Y | Password |
-| city | string | Y | City Number (Taipei:01/New Taipei:06/Taoyuan:08) |
+| city | string | Y | City Number <br> (Taipei:01/New Taipei:06/Taoyuan:08) |
 
 ###### Response
 
