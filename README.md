@@ -1,8 +1,12 @@
 # WeatherFetcherSystem
 
-1.0
+v1.0
   - First Version
 
+Demo:
+  - URL: https://app.chiaying.wang/dashboard/
+  - Username: demo
+  - Password: chiayingwang
 
 # Features!
 
