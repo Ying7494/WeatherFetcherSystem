@@ -83,7 +83,7 @@ WeatherFetcherSystem is currently extended with the following plugins.
 | ------ | ------ | ------ |------ |
 | username | string | Y | Username |
 | password | string | Y | Password |
-| city | string | Y | City Number <br> (Taipei:01/New Taipei:06/Taoyuan:08) |
+| city | string | Y | City Number <br> Taipei: 01 <br> New Taipei: 06 <br> Taoyuan: 08 |
 
 ###### Response
 
